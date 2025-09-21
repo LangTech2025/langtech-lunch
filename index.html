@@ -1,0 +1,81 @@
+export default function LangTechLunch() {
+  return (
+    <div className="font-sans text-gray-800">
+      {/* Hero Section */}
+      <section className="bg-gradient-to-r from-blue-600 to-indigo-700 text-white text-center py-20 px-4">
+        <h1 className="text-4xl md:text-5xl font-bold mb-4">
+          LangTech Lunch
+        </h1>
+        <p className="text-lg md:text-xl max-w-2xl mx-auto mb-6">
+          Conversations shaping the future of language education and AI — in a
+          private, off-the-record lunch.
+        </p>
+        <button className="bg-white text-blue-700 font-semibold px-6 py-3 rounded-2xl shadow hover:bg-gray-100 transition">
+          Request an Invite
+        </button>
+      </section>
+
+      {/* About Section */}
+      <section className="max-w-4xl mx-auto py-16 px-6 text-center">
+        <h2 className="text-2xl font-bold mb-4">What is LangTech Lunch?</h2>
+        <p className="text-lg leading-relaxed">
+          A small, free gathering (just pay for your meal) where senior leaders
+          in language education connect, share insights, and discuss how AI is
+          shaping the industry — all in a relaxed, off-the-record setting.
+        </p>
+      </section>
+
+      {/* Social Proof Section */}
+      <section className="bg-gray-50 py-16 px-6">
+        <div className="max-w-5xl mx-auto text-center">
+          <h2 className="text-2xl font-bold mb-6">Past Events</h2>
+          <div className="flex justify-center gap-8 mb-8">
+            <span className="text-xl font-semibold">London</span>
+            <span className="text-xl font-semibold">Paris</span>
+            <span className="text-xl font-semibold">Prague</span>
+          </div>
+          <blockquote className="italic text-lg max-w-3xl mx-auto">
+            “The most valuable hour of my conference week. Genuine insights in a
+            relaxed atmosphere.”
+          </blockquote>
+        </div>
+      </section>
+
+      {/* Why Attend Section */}
+      <section className="max-w-4xl mx-auto py-16 px-6 text-center">
+        <h2 className="text-2xl font-bold mb-8">Why Attend?</h2>
+        <div className="grid md:grid-cols-3 gap-8">
+          <div className="p-6 bg-white shadow rounded-2xl">
+            <h3 className="font-semibold mb-2">Peer Insights</h3>
+            <p>Exchange experiences with fellow senior leaders.</p>
+          </div>
+          <div className="p-6 bg-white shadow rounded-2xl">
+            <h3 className="font-semibold mb-2">Future of AI</h3>
+            <p>Discuss how AI is reshaping language education.</p>
+          </div>
+          <div className="p-6 bg-white shadow rounded-2xl">
+            <h3 className="font-semibold mb-2">Relaxed Setting</h3>
+            <p>Step away from the noise of the conference floor.</p>
+          </div>
+        </div>
+      </section>
+
+      {/* Call to Action Section */}
+      <section className="bg-indigo-700 text-white text-center py-20 px-6">
+        <h2 className="text-3xl font-bold mb-4">Request Your Invitation</h2>
+        <p className="text-lg mb-6 max-w-2xl mx-auto">
+          Spots are limited — secure your place at the next LangTech Lunch.
+        </p>
+        <button className="bg-white text-indigo-700 font-semibold px-6 py-3 rounded-2xl shadow hover:bg-gray-100 transition">
+          Request an Invite
+        </button>
+      </section>
+
+      {/* Footer */}
+      <footer className="bg-gray-900 text-gray-300 text-center py-6 text-sm">
+        <p>© {new Date().getFullYear()} LangTech Lunch</p>
+        <p>Contact: alex@langtechlunch.com</p>
+      </footer>
+    </div>
+  );
+}
